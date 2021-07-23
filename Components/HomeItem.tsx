@@ -1,11 +1,16 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
-export default function HomeItem() {
+interface HomeProps {
+  name: string;
+  price: number;
+}
+
+const HomeItem: React.FC<HomeProps> = ({ name, price}) => {
   return (
     <View style={styles.container}>
-      <Text>Hamburger</Text>
-      <Text>Price: $19.90</Text>
+      <Text>{name}</Text>
+      <Text>Price: ${price}</Text>
     </View>
   )
 }
@@ -22,3 +27,4 @@ const styles = StyleSheet.create({
       }
   })
 
+export default HomeItem;
