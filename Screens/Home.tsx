@@ -19,8 +19,8 @@ export default function Home() {
       },
     },
     {
-      id:1,
-      name: "item 1",
+      id:2,
+      name: "item 2",
       description: "tasty",
       price: 12.00,
       category: {
@@ -29,8 +29,8 @@ export default function Home() {
       },
     },
     {
-      id:1,
-      name: "item 1",
+      id:3,
+      name: "item 3",
       description: "tasty",
       price: 12.00,
       category: {
@@ -39,24 +39,14 @@ export default function Home() {
       },
     },
   ]
-  const [items, setItems] = useState<Product[]>()
+  const [items, setItems] = useState<Product[]>(defaultItems)
 
-  const getItems = async () => {
-    const data = await axios.get("http://localhost:3000/product")
-    // For some reason data.data is undefined for rendering components
-    // setItems(data.data!)
-    setItems(defaultItems)
-    console.log(items)
-
-  }
 
   return (
     <View style={styles.container}>
       {items?.map(item => (
         <HomeItem key={item.id} name={item.name} price={item.price} />
       ))}
-
-      <Button title="GetItems" onPress={getItems} />
     </View>
   );
 }
