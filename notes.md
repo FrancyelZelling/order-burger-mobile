@@ -7,3 +7,6 @@ Created only for storing information related to this project.
 
 ## Assets
 [Hamburger PNG](https://img2.gratispng.com/20171216/2b4/hamburger-burger-png-image-5a35e0977d5010.2702402215134803435133.jpg)
+
+## Links that helped
+[How to create grid style with FlatList](https://oieduardorabelo.medium.com/react-native-criando-grids-com-flatlist-b4eb64e7dcd5)
