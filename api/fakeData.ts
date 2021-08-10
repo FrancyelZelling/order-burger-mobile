@@ -32,4 +32,204 @@ export const fakeProducts: Product[] = [
         name: "Hamburger"
       },
     },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
+    {
+      id:3,
+      name: "item 3",
+      description: "tasty",
+      price: 12.00,
+      category: {
+        id: 1,
+        name: "Hamburger"
+      },
+    },
   ]

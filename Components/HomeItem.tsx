@@ -29,7 +29,8 @@ const styles = StyleSheet.create({
         borderColor: 'red',
         borderWidth: 1,
         borderStyle: 'solid',
-        width: '45%',
+        width: 150,
+        height: 200,
         margin: 5
       },
       img: {
