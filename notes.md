@@ -10,4 +10,5 @@ Created only for storing information related to this project.
 
 ## Links that helped
 [How to create grid style with FlatList](https://oieduardorabelo.medium.com/react-native-criando-grids-com-flatlist-b4eb64e7dcd5)
+
 [SafeAreaView for android](https://docs.expo.dev/versions/v42.0.0/sdk/safe-area-context/)
