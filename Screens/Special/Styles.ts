@@ -1,0 +1,68 @@
+import { StyleSheet, PixelRatio } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    height: 170,
+    display: "flex",
+    flexDirection: "row",
+    borderColor: "red",
+    marginTop: 30,
+    marginBottom: 20,
+  },
+  image: {
+    width: 180,
+    height: 160,
+    borderBottomLeftRadius: 8,
+    borderTopLeftRadius: 8,
+  },
+  price: {
+    width: 45,
+    height: 25,
+    backgroundColor: "#F0B322",
+    textAlign: "center",
+    lineHeight: 25,
+    fontSize: 12,
+    borderRadius: 5,
+    position: "absolute",
+    top: 10,
+    right: 10,
+  },
+  sideContent: {
+    backgroundColor: "#F0B322",
+    width: 140,
+    height: 160,
+    borderBottomRightRadius: 8,
+    borderTopRightRadius: 8,
+    alignItems: "center",
+  },
+  title: {
+    fontSize: PixelRatio.get() * 6,
+    fontWeight: "bold",
+  },
+  desc: {
+    fontSize: PixelRatio.get() * 4.5,
+    marginLeft: 15,
+    marginRight: 15,
+    marginTop: 5,
+    textAlign: "center",
+    color: "#FFFFFF",
+  },
+  button: {
+    marginTop: "auto",
+    marginBottom: 12,
+    backgroundColor: "#323133",
+    width: 100,
+    height: 30,
+    textAlign: "center",
+    alignItems: "center",
+    justifyContent: "center",
+    color: "#F0B322",
+    borderRadius: 8,
+  },
+  btnText: {
+    color: "#F0B322",
+    fontWeight: "500",
+    letterSpacing: 0.5,
+    fontSize: PixelRatio.get() * 5,
+  },
+});
