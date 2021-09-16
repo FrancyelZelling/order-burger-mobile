@@ -3,8 +3,8 @@ import { StyleSheet } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Feather } from "@expo/vector-icons";
 
-import Home from "../Screens/Home";
-import Menu from "../Screens/Menu";
+import Home from "../Screens/Home/Home";
+import Menu from "../Screens/Menu/Menu";
 
 export default function BottomTab() {
   const Tab = createBottomTabNavigator();
@@ -65,4 +65,4 @@ const styles = StyleSheet.create({
     backgroundColor: "#F0B322",
     color: "#353536",
   },
-  });
+});
