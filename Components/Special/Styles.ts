@@ -9,6 +9,7 @@ export const styles = StyleSheet.create({
     marginTop: 30,
     marginBottom: 20,
   },
+  imgContainer: {},
   image: {
     width: 180,
     height: 160,
@@ -36,11 +37,11 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
   title: {
-    fontSize: PixelRatio.get() * 6,
+    fontSize: PixelRatio.get() * 5,
     fontWeight: "bold",
   },
   desc: {
-    fontSize: PixelRatio.get() * 4.5,
+    fontSize: PixelRatio.get() * 4.0,
     marginLeft: 15,
     marginRight: 15,
     marginTop: 5,
@@ -63,6 +64,6 @@ export const styles = StyleSheet.create({
     color: "#F0B322",
     fontWeight: "500",
     letterSpacing: 0.5,
-    fontSize: PixelRatio.get() * 5,
+    fontSize: PixelRatio.get() * 4,
   },
 });

@@ -4,13 +4,13 @@ import { NavigationContainer } from "@react-navigation/native";
 import { store } from "./tools/redux/store";
 import { Provider } from "react-redux";
 
-import Navigation from "./Navigation/BottomTab";
+import StackNavigation from "./Navigation/StackNavigation";
 
 export default function App() {
   return (
     <Provider store={store}>
       <NavigationContainer>
-        <Navigation />
+        <StackNavigation />
       </NavigationContainer>
       <StatusBar style="dark" />
     </Provider>
