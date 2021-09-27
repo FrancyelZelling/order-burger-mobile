@@ -1,4 +1,3 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { store } from "./tools/redux/store";
@@ -12,7 +11,6 @@ export default function App() {
       <NavigationContainer>
         <StackNavigation />
       </NavigationContainer>
-      <StatusBar style="dark" />
     </Provider>
   );
 }

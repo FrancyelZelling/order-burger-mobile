@@ -4,7 +4,6 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { RootState } from "../../tools/redux/store";
 import { useSelector } from "react-redux";
 
-import Header from "../../Components/Header/Header";
 import Special from "../../Components/Special/Special";
 import HomeItem from "../../Components/HomeItem/HomeItem";
 
@@ -13,7 +12,6 @@ export default function Home() {
 
   return (
     <SafeAreaView>
-      <Header />
       <ScrollView
         style={{
           backgroundColor: "#353536",

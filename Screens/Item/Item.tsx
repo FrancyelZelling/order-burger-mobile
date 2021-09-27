@@ -1,10 +1,14 @@
 import React from "react";
 import { View, Text } from "react-native";
 
-export default function Item() {
+const Item = ({ route, navigaton }) => {
+  const { name } = route.params;
+
   return (
     <View>
-      <Text>Item</Text>
+      <Text>{name}</Text>
     </View>
   );
-}
+};
+
+export default Item;
