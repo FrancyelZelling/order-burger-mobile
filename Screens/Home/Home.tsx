@@ -1,5 +1,5 @@
 import React from "react";
-import { FlatList, ScrollView } from "react-native";
+import { FlatList, ScrollView, Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { RootState } from "../../tools/redux/store";
 import { useSelector } from "react-redux";
@@ -11,25 +11,23 @@ export default function Home() {
   const products = useSelector((state: RootState) => state.app.products);
 
   return (
-    <SafeAreaView>
-      <ScrollView
-        style={{
-          backgroundColor: "#353536",
+    <ScrollView
+      style={{
+        backgroundColor: "#353536",
+      }}
+      contentContainerStyle={{
+        alignItems: "center",
+      }}
+    >
+      <Special />
+      <FlatList
+        data={products}
+        keyExtractor={(item) => item.name}
+        numColumns={2}
+        renderItem={({ item }) => {
+          return <HomeItem name={item.name} price={item.price} />;
         }}
-        contentContainerStyle={{
-          alignItems: "center",
-        }}
-      >
-        <Special />
-        <FlatList
-          data={products}
-          keyExtractor={(item) => item.name}
-          numColumns={2}
-          renderItem={({ item }) => {
-            return <HomeItem name={item.name} price={item.price} />;
-          }}
-        />
-      </ScrollView>
-    </SafeAreaView>
+      />
+    </ScrollView>
   );
 }

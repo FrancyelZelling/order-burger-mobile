@@ -37,11 +37,11 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
   title: {
-    fontSize: PixelRatio.get() * 5,
+    fontSize: 16,
     fontWeight: "bold",
   },
   desc: {
-    fontSize: PixelRatio.get() * 4.0,
+    fontSize: 14,
     marginLeft: 15,
     marginRight: 15,
     marginTop: 5,
@@ -64,6 +64,6 @@ export const styles = StyleSheet.create({
     color: "#F0B322",
     fontWeight: "500",
     letterSpacing: 0.5,
-    fontSize: PixelRatio.get() * 4,
+    fontSize: 14,
   },
 });

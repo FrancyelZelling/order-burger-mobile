@@ -21,6 +21,7 @@ export default function ItemStackScreen() {
           paddingLeft: 22,
           color: "white",
         },
+        headerTintColor: "white",
       }}
     >
       <StackNavigation.Screen name="Home" component={BottomTab} />
