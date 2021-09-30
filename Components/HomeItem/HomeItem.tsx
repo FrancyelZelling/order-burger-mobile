@@ -22,7 +22,7 @@ const HomeItem: React.FC<HomeProps> = ({ name, price }) => {
         <Text style={styles.itemPrice}>$ {price}</Text>
         <Pressable
           style={styles.itemBtn}
-          onPress={() => navigation.navigate("Item", { name })}
+          onPress={() => navigation.navigate("Item", { name, price })}
         >
           <Text style={styles.btnText}>+</Text>
         </Pressable>
