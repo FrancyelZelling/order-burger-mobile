@@ -14,6 +14,10 @@ export default function ItemStackScreen() {
       screenOptions={{
         headerStyle: {
           backgroundColor: "#323133",
+          elevation: 0, // remove shadow on android
+          shadowOpacity: 0, // remove shadow on IOS
+          borderBottomWidth: 2,
+          borderBottomColor: "#F0B322",
         },
         headerTitle: "Order Burger",
         headerRight: () => <SearchButton />,
@@ -21,7 +25,7 @@ export default function ItemStackScreen() {
           paddingLeft: 22,
           color: "white",
         },
-        headerTintColor: "white",
+        headerTintColor: "#F0B322", // color of back button
       }}
     >
       <StackNavigation.Screen name="Home" component={BottomTab} />
