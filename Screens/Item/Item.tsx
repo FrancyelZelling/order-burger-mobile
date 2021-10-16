@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Image } from "react-native";
+import { ScrollView, View, Text, Image } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
 import { styles } from "./Styles";
@@ -9,7 +9,10 @@ const Item = ({ route, navigaton }) => {
   const image = require("../../assets/burger.jpg");
 
   return (
-    <View style={styles.container}>
+    <ScrollView
+      style={styles.container}
+      contentContainerStyle={{ alignItems: "center" }}
+    >
       <Image source={image} style={styles.image} />
       <Text style={styles.title}>{name}</Text>
       <Text style={styles.desc}>
@@ -24,7 +27,7 @@ const Item = ({ route, navigaton }) => {
           <Text style={styles.btnText}>Add to cart</Text>
         </TouchableOpacity>
       </View>
-    </View>
+    </ScrollView>
   );
 };
 

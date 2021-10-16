@@ -5,6 +5,7 @@ import { Feather } from "@expo/vector-icons";
 
 import Home from "../Screens/Home/Home";
 import Menu from "../Screens/Menu/Menu";
+import ShoppingCart from "../Screens/ShoppingCart/ShoppingCart";
 
 export default function BottomTab() {
   const Tab = createBottomTabNavigator();
@@ -18,8 +19,8 @@ export default function BottomTab() {
       }}
     >
       <Tab.Screen
-        name="Menu"
-        component={Menu}
+        name="Cart"
+        component={ShoppingCart}
         options={{
           tabBarIcon: (tabinfo) => (
             <Feather

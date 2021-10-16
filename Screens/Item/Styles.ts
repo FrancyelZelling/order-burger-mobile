@@ -2,15 +2,13 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   container: {
-    alignItems: "center",
     paddingVertical: 20,
     paddingHorizontal: 30,
     backgroundColor: "#353536",
-    flex: 1,
   },
   image: {
-    width: 350,
-    height: 320,
+    width: 280,
+    height: 280,
     borderRadius: 16,
   },
   title: {
@@ -28,6 +26,7 @@ export const styles = StyleSheet.create({
   },
   priceSection: {
     marginTop: 45,
+    marginBottom: 30,
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
