@@ -1,6 +1,5 @@
 import React from "react";
 import { FlatList, ScrollView, Text } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
 import { RootState } from "../../tools/redux/store";
 import { useSelector } from "react-redux";
 

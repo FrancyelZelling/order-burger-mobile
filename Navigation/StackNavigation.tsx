@@ -1,6 +1,7 @@
 import * as React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 
+import Order from "../Screens/Order/Order"
 import Item from "../Screens/Item/Item";
 import BottomTab from "./BottomTab";
 
@@ -30,6 +31,7 @@ export default function ItemStackScreen() {
     >
       <StackNavigation.Screen name="Home" component={BottomTab} />
       <StackNavigation.Screen name="Item" component={Item} />
+      <StackNavigation.Screen name="Order" component={Order} />
     </StackNavigation.Navigator>
   );
 }
