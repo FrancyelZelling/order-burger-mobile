@@ -24,7 +24,7 @@ export default function Home() {
         keyExtractor={(item) => item.name}
         numColumns={2}
         renderItem={({ item }) => {
-          return <HomeItem name={item.name} price={item.price} />;
+          return <HomeItem item={item} />;
         }}
       />
     </ScrollView>

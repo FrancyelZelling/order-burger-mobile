@@ -44,10 +44,17 @@ export const appSlice = createSlice({
   reducers: {
     getItems: (state) => {
       console.log('Hello from redux')
+    },
+    addItemToCart: (state: appState, action: PayloadAction<Product>) => {
+      state.cart.products.push(action.payload)
+      console.log(state.cart)
+      state.cart.total += action.payload.price
+      state.cart.items += 1
+      console.log(action.payload)
     }
   }
 })
 
-export const { getItems } = appSlice.actions
+export const { getItems, addItemToCart } = appSlice.actions
 
 export default appSlice.reducer
