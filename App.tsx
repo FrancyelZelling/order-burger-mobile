@@ -5,6 +5,7 @@ import { Provider } from "react-redux";
 import { StatusBar } from "expo-status-bar";
 
 import StackNavigation from "./Navigation/StackNavigation";
+// commented on vsweb
 
 export default function App() {
   return (
